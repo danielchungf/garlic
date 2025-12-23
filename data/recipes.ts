@@ -1,324 +1,193 @@
 export interface Recipe {
   id: string;
   title: string;
-  description: string;
   image?: string;
-  prepTime: string;
-  cookTime: string;
-  servings: number;
   ingredients: string[];
   instructions: string[];
-  tags: string[];
 }
 
 export const recipes: Recipe[] = [
   {
     id: "1",
     title: "Ají de Gallina",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
     instructions: [],
-    tags: []
   },
   {
     id: "2",
     title: "Aguadito de Pollo",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "3",
     title: "Apple Crisp",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "4",
     title: "Arroz Chaufa",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "5",
     title: "Arroz con Pollo",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "6",
     title: "Bulgogi Meatballs",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "7",
     title: "Chicken Noodle Soup",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
-    ingredients: [],
-    instructions: [],
-    tags: []
+    ingredients: [
+      "1 tbsp olive oil or butter",
+      "1 small onion, chopped",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
+      "2-3 garlic cloves, minced",
+      "6 cups chicken broth",
+      "2 cups cooked shredded chicken",
+      "1-1.5 cups egg noodles",
+      "Salt + pepper",
+      "A squeeze of lemon + parsley"
+    ],
+    instructions: [
+      "To make an easy chicken noodle soup, heat a little olive oil or butter in a pot and cook chopped onion, sliced carrots, and sliced celery until they soften. Add minced garlic for a few seconds, then pour in chicken broth and bring it to a gentle simmer.",
+      "Stir in egg noodles and cook until they're tender then add shredded cooked chicken and let it warm through. Season with salt and pepper and finish with a squeeze of lemon or a bit of parsley if you want extra brightness."
+    ]
   },
   {
     id: "8",
     title: "Chicharrón de Pollo",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "9",
     title: "Cold Somen Noodles",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "10",
     title: "Crema de Zapallo",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "11",
     title: "Crema Volteada",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "12",
     title: "Crispy Potatoes",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "13",
     title: "Garlic Soy Sauce Noodles",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "14",
     title: "Ground Beef Omelette",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "15",
     title: "Guiso de Trigo",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "16",
     title: "Juan's Seco de Carne",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "17",
     title: "Katsu Curry",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "18",
     title: "Lomo Saltado",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "19",
     title: "Mayo Tuna Onigiris",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "20",
     title: "Milk Tea Tiramisu",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "21",
     title: "Miso Caesar Salad",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "22",
     title: "Nona's Noodle Salad",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "23",
     title: "Perfect Chicken Wings",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "24",
     title: "Peruvian Pollo Asado",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "25",
     title: "Sopa Criolla",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "26",
     title: "Tía Po's Pollo Asado",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "27",
     title: "Torrejitas de Atún",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   },
   {
     id: "28",
     title: "Tres Leches",
-    description: "",
-    prepTime: "",
-    cookTime: "",
-    servings: 0,
     ingredients: [],
-    instructions: [],
-    tags: []
+    instructions: []
   }
 ];
 
