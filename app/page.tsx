@@ -27,9 +27,12 @@ export default function Home() {
           <button className="font-young-serif font-medium text-neutral-950 text-xl">
             Index
           </button>
-          <button className="font-young-serif font-medium text-neutral-500 text-xl">
+          <Link
+            href="/ingredients"
+            className="font-young-serif font-medium text-neutral-500 text-xl"
+          >
             Ingredients
-          </button>
+          </Link>
         </div>
       </nav>
 
